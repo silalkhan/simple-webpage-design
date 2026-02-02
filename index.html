@@ -15,20 +15,21 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="navbar collapsible">
-      <a class="nav__logo" href="/">
-        <img src="/images/logo.svg" alt="Moshify logo" />
-      </a>
-      <svg class="icon icon--white nav__toggler">
-        <use xlink:href="images/sprite.svg#menu"></use>
-      </svg>
-      <ul class="list nav__list collapsible__content">
-        <li class="nav__item"><a href="#">Hoisting</a></li>
-        <li class="nav__item"><a href="#">VPS</a></li>
-        <li class="nav__item"><a href="#">Domain</a></li>
-        <li class="nav__item"><a href="#">Pricing</a></li>
-      </ul>
-    </div>
-    <script src="js/main.js"></script>
+    <section class="block block--dark block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <div class="block__header hero__content">
+          <h1 class="block__heading">Cloud Hosting For Pros</h1>
+          <p class="hero__tagline">
+            Deploy your website in less than 60 seconds.
+          </p>
+          <a class="btn btn--accent btn--stretched" href="/">Get Started</a>
+        </div>
+        <img
+          class="hero__image"
+          src="/images/banner.png"
+          alt="A banner show cloud hosting"
+        />
+      </div>
+    </section>
   </body>
 </html>
