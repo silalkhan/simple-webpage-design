@@ -1,4 +1,4 @@
-# 1st-project
+# simple-webpage-design
 
 Live demo: https://celebrated-sunflower-3e7725.netlify.app/
 
